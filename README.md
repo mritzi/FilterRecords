@@ -3,7 +3,7 @@
 
 ## Why FilterRecords
 
-- While developing custom feature in Salesforce, often times we need to write repititive code to filter list based on certain filter criteria. We have to write for loop to iterate over list of sObjects & get records relevant to the use case, and it's repeated at several places in the org.
+- While developing custom feature in Salesforce, often times we need to write repetitive code to filter list based on certain filter criteria. We have to write for loop to iterate over list of sObjects & get records relevant to the use case, and it's repeated at several places in the org.
 - Similar issue comes up regularly while handling records in Trigger context, where Trigger.new & Trigger.old gives up upto 200 records of all record types, however,  we only need to run few use case on records of a fixed record type.
 
 This library aims to remove that re-work and make the org's code size smaller.
